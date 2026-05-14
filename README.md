@@ -1,23 +1,37 @@
 # student_score_predictor
-🎓 Student Score Predictor
+# 🎓 Student Score Predictor
 
-A Machine Learning project that predicts student scores based on study-related input data. This project uses Python, Scikit-learn, and Streamlit to train a regression model and provide an interactive web interface for predictions.
+A Machine Learning project that predicts student scores based on study-related input data using regression algorithms. This project provides an interactive Streamlit web application for real-time score prediction.
 
-🚀 Features
-📊 Student score prediction using Machine Learning
-🧠 Regression model training and testing
-📁 CSV dataset handling
-🌐 Interactive Streamlit web application
-💾 Saved trained model using Pickle
-✅ Dynamic prediction support
-🛠️ Tech Stack
-Python
-Scikit-learn
-Pandas
-NumPy
-Streamlit
-Pickle
-📂 Project Structure
+---
+
+## 🚀 Features
+
+* Student score prediction using Machine Learning
+* Regression model training and evaluation
+* Interactive Streamlit web application
+* CSV dataset processing
+* Saved trained models using Pickle
+* Dynamic prediction support
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology   | Purpose              |
+| ------------ | -------------------- |
+| Python       | Programming Language |
+| Scikit-learn | Machine Learning     |
+| Pandas       | Data Processing      |
+| NumPy        | Numerical Operations |
+| Streamlit    | Web Application      |
+| Pickle       | Model Serialization  |
+
+---
+
+## 📂 Project Structure
+
+```bash
 student_score_predictor/
 │
 ├── ml project/
@@ -39,61 +53,107 @@ student_score_predictor/
 │   └── requirements.txt
 │
 └── README.md
-⚙️ Installation
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/student_score_predictor.git
-2️⃣ Navigate to the Project Folder
+```
+
+### 2️⃣ Navigate to the Project Folder
+
+```bash
 cd student_score_predictor
-3️⃣ Install Dependencies
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r "ml project/requirements.txt"
-▶️ Run the Project
-Run Streamlit Application
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
 streamlit run "ml project/streamlit_app.py"
+```
 
-After running the command, Streamlit will provide a local URL such as:
+After running the command, open the local URL provided by Streamlit in your browser.
 
+Example:
+
+```bash
 http://localhost:8501
+```
 
-Open it in your browser.
+---
 
-🧪 Model Training
+## 🧠 Train the Model
 
-To train the model manually:
-
+```bash
 python "ml project/src/train_model.py"
-📈 Model Testing
+```
 
-To test the model:
+---
 
+## 📊 Test the Model
+
+```bash
 python "ml project/src/test_model.py"
-🔮 Prediction
+```
 
-Dynamic prediction script:
+---
 
+## 🔮 Prediction
+
+```bash
 python "ml project/src/predict_dynamic.py"
-📊 Dataset
+```
 
-The dataset is stored in:
+---
 
+## 📁 Dataset
+
+Dataset used for training and testing is available in:
+
+```bash
 ml project/data/data.csv
+```
 
-It contains student-related data used for training and evaluating the regression model.
+---
 
-🌟 Future Improvements
-Improve model accuracy
-Add more visualization charts
-Deploy the application online
-Add authentication system
-Support multiple ML algorithms
-🤝 Contributing
+## 🌟 Future Improvements
+
+* Improve model accuracy
+* Add graphical visualizations
+* Deploy application online
+* Add user authentication
+* Support multiple ML algorithms
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome.
 
-Fork the repository
-Create a feature branch
-Commit your changes
-Push to your branch
-Create a Pull Request
-📜 License
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push your branch
+5. Create a Pull Request
 
-This project is for educational and learning purposes.
+---
+
+## 📜 License
+
+This project is developed for educational purposes.
+
+---
+
